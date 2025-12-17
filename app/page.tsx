@@ -1,6 +1,6 @@
 import ClockCard from '@/components/ClockCard';
 
-// Datos de ejemplo de relojes antiguos
+// Datos de ejemplo de relojes antiguos (solo 4 relojes)
 const clocks = [
   {
     id: '1',
@@ -30,25 +30,11 @@ const clocks = [
     year: '1850',
     status: 'online' as const,
   },
-  {
-    id: '5',
-    name: 'Reloj de Bolsillo Dorado',
-    location: 'Vitrina Especial',
-    year: '1900',
-    status: 'online' as const,
-  },
-  {
-    id: '6',
-    name: 'Reloj de Pared Suizo',
-    location: 'Pasillo Norte',
-    year: '1885',
-    status: 'offline' as const,
-  },
 ];
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
+    <div className="min-h-screen bg-linear-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
       <div className="container mx-auto px-4 py-8">
         {/* Header */}
         <header className="mb-8">
