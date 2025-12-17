@@ -1,8 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ClockView
+
+Panel de monitoreo de relojes en tiempo real construido con Next.js.
+
+## Características
+
+- Panel con fichas de múltiples relojes
+- Vista previa en tiempo real de cada reloj
+- Indicadores de estado (en línea/desconectado)
+- Diseño moderno y responsive
+- Soporte para modo oscuro
 
 ## Getting Started
 
-First, run the development server:
+Primero, ejecuta el servidor de desarrollo:
 
 ```bash
 npm run dev
@@ -14,11 +24,9 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Puedes empezar a editar la página modificando `app/page.tsx`. La página se actualiza automáticamente mientras editas el archivo.
 
 ## Learn More
 
